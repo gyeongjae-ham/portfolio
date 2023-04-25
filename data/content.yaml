@@ -1,0 +1,129 @@
+Dir: ltr # Left to Right Direction
+
+BasicInfo:
+  FirstName: 함
+  LastName: 경재
+  Photo: img/avatar.jpeg
+  Contacts:
+    - Icon: fas fa-envelope
+      Info: gyeongjae.h.dev@gmail.com
+      Link: false
+    - Icon: fas fa-phone
+      Info: (+82) 010-4730-8790
+      Link: false
+    - Icon: fas fa-map-marker-alt
+      Info: 용인시, 수지구
+      Link: false
+    - Icon: fab fa-github
+      Info: github.com/hiyee-gj
+      Link: true
+    - Icon: fas fa-globe
+      Info: hiyee-gj.github.io/blog/
+      Link: true
+
+Experience:
+  - Employer: 레인보우8(광고)
+    Place: 삼성역, 서울
+    Positions:
+      - Title: 백엔드 개발자
+        Date: 12.2021 - 11.2022
+        Details:
+          - 회사 DSP사이트와 SSP사이트에서 고객들에게 알릴 공지사항과 회사 서비스를 이용하기 위한 안내서를 효율적으로 관리하기 위한 백오피스 개발
+          - 로그인 기능으로 회사 사람들만 접속
+          - 회사 서비스 안내서를 업로드하고 삭제(S3와연동되도록해야할것)
+          - 로그인한 사용자의 역할에 따라서 회사 서비스안내서를 삭제 가능
+          - 고객들에게 공지할 이미지를 업로드하고 삭제
+          - PDF파일을 새로 업로드한 후에도 기존 PDF파일이 보이는 문제 해결
+          - 공지 이미지를 게시할 유효날짜를 설정해서 해당기간에만 공지가 표시
+          - S3에서 받아온 날짜가 KST가 아니라 UTC로 출력되는 문제
+          - 회사 사이트들(홈페이지, ADN, ADX)에서 사용할 이메일 서비스 개발
+          - 기존의 문제점을 해결하기 위해서 Google Recaptcha를 적용하고 테스트
+        Badges:
+          [
+            "TypeScript",
+            "NestJS",
+            "TypeORM",
+            "MySQL",
+            "EC2",
+            "RDS",
+            "S3",
+            "Cloudflare",
+            "CloudFront",
+          ]
+  - Employer: 쿠돈(이커머스)
+    Place: 포스코사거리, 서울
+    Positions:
+      - Title: 백엔드 개발자
+        Date: 07.2021 - 10.2021
+        Details:
+          - 어드민 페이지에 배너 이미지 관리 기능 개발
+          - 배너이미지 순서 드래그앤드롭으로 변경할 수 있도록 개발
+          - 드래그 앤 드롭할 때마다 request가 날아와서 db를 자주 건드리게 되는 문제 해결
+          - 구매확정 알림 메시지 에러 해결
+        Badges:
+          [
+            "Python",
+            "Django",
+            "Django REST Framework",
+            "MySQL",
+            "EC2",
+            "RDS",
+            "S3",
+            "Beanstalk",
+            "CloudFront",
+          ]
+  - Employer: 빅스텝에듀(교육)
+    Place: 신사역, 서울
+    Positions:
+      - Title: 인턴
+        Date: 05.2021 - 06.2021
+        Details:
+          - 멘토와 멘티가 강의를 듣고 소통할 수 있는 플랫폼 개발
+          - 로그인 기능 및 역할 설정
+          - 사용자 역할별 마이페이지 api 개발
+          - 각 강좌에 대한 상세정보 페이지 개발
+          - 멘티들이 멘토의 강의에 대해 평가할 수 있는 리뷰 및 평점 개발
+          - 질문게시판 개발
+          - PDF 자료를 보여주는 창
+        Badges:
+          [
+            "Python",
+            "Django",
+            "Django REST Framework",
+            "SQLite",
+            "MySQL",
+            "EC2",
+            "S3",
+            "Route53",
+          ]
+
+Education:
+  - Degree: 부트캠프
+    # FieldOfStudy:
+    NameofSchool: 멋쟁이 사자처럼 백엔드 스쿨 5기
+    Location: 온라인
+    Date: 04.2023 - 진행 중
+
+  - Degree: 부트캠프
+    # FieldOfStudy:
+    NameofSchool: 위코드
+    Location: 선릉역
+    Date: 03.2021 - 06.2021
+
+Profile: 1년 차 백엔드 개발자로 스타트업에서 웹 서비스를 개발/배포/운영하였습니다</br>5인 이하 규모의 스타트업의 서 비스 운영과 개발 경험과 40인 이하 규모 스타트업에서 프로젝트를 맡아서 진행하는 경험을 쌓고 있습니다 회사의 비즈니스가 성장하는 일을 최우선으로 하고 그에 맞게 스스로 성장하고 있습니다 이를 위해서 빠른 개발 과 프로덕션 레벨과 같은 환경에서 서비스를 테스트하는 것을 위한 역량을 쌓고 있습니다</br> 개선해야 될 점을 발견 하면 주도적으로 의견을 말하고 동료들과 커뮤니케이션하며 협업하고 있습니다 반복되는 비효율적인 일을 자동화하려는 고민을 합니다 운영팀의 단순/루틴 업무 시간을 줄이기 위해 사이트 운 영에 필요한 백오피스 프로젝트를 개발하여 제시한 경험이 있습니다
+
+Personal:
+  # Gender: Male
+  # BirthDate: 1990-10-05
+  # Status: Free to Work
+  # MaritalStatus: Single
+
+Skills:
+  - Java | Spring | Spring Boot
+  - Jpa | Querydsl
+  - Thymeleaf
+  - Linux | Docker | Git
+  - Node.js | JavaScript |
+  - SQL
+  - CI/CD | Jenkins
+  - HTML | CSS
