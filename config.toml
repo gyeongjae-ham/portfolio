@@ -1,5 +1,5 @@
-languageCode = "en-us"
-defaultContentLanguage = "en" # "en" or "fa"
+languageCode = "ko-KR"
+defaultContentLanguage = "ko" # "en"
 enableRobotsTXT = true
 enableEmoji = true
 
@@ -7,7 +7,8 @@ theme = "simple-cv"
 disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
 
 baseURL = "https://example.com/"
-title = "Example - CV"
+title = "함경재 포트폴리오"
+favicon = "/img/xLzaaP9J.ico"
 #googleAnalytics = ""
 
 [params]
