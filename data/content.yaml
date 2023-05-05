@@ -15,10 +15,10 @@ BasicInfo:
       Info: 용인시, 수지구
       Link: false
     - Icon: fab fa-github
-      Info: github.com/hiyee-gj
+      Info: github.com/howdy-luca
       Link: true
     - Icon: fas fa-globe
-      Info: hiyee-gj.github.io/blog/
+      Info: velog.io/@helloluca
       Link: true
 
 Experience:
